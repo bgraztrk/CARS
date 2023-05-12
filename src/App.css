@@ -1,0 +1,48 @@
+.container {
+  background-color: #a0a0a0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.ant-table-wrapper{
+  height: 600px;
+  width: 70%;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+}
+.modal-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.add-car-container {
+  top: 0;
+  z-index: 1;
+  background-color: #a0a0a0;
+  padding: 10px;
+}
+#btnAdd{
+  background-color: green;
+}
+#btnDelete{
+  margin-right: 5px;
+}
+.ant-table-container{
+  box-shadow: 10px 10px 10px black;
+}
